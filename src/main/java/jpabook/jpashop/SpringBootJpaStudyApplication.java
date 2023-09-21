@@ -8,7 +8,7 @@ public class SpringBootJpaStudyApplication {
 
     public static void main(String[] args) {
 
-
+        // 깃허브 테스트용
 
         SpringApplication.run(SpringBootJpaStudyApplication.class, args);
     }
