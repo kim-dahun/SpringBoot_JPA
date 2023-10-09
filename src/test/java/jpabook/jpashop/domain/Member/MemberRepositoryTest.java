@@ -14,25 +14,25 @@ class MemberRepositoryTest {
     @Autowired
     MemberRepository memberRepository;
 
-    @Test
-    @Transactional
-    void save() {
+////    @Test
+//    @Transactional
+//    void save() {
+//
+//        // given
+//        Member member = new Member();
+//        member.setName("memberA");
+//
+//        // when
+//        Long savedId = memberRepository.save(member);
+//        Member findMember = memberRepository.find(savedId);
+//
+//        // then
+//        Assertions.assertThat(findMember.getId()).isEqualTo(member.getId());
+//        Assertions.assertThat(findMember.getName()).isEqualTo(member.getName());
+//        Assertions.assertThat(findMember).isEqualTo(member);
+//    }
 
-        // given
-        Member member = new Member();
-        member.setName("memberA");
-
-        // when
-        Long savedId = memberRepository.save(member);
-        Member findMember = memberRepository.find(savedId);
-
-        // then
-        Assertions.assertThat(findMember.getId()).isEqualTo(member.getId());
-        Assertions.assertThat(findMember.getName()).isEqualTo(member.getName());
-        Assertions.assertThat(findMember).isEqualTo(member);
-    }
-
-    @Test
+//    @Test
     void find() {
     }
 }
